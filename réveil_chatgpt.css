@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4a90e2; /* Couleur de fond bleue */
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.main-container {
+    background-color: #007bff; /* Couleur de fond du réveil */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clock {
+    font-size: 72px; /* Taille de l'heure */
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Couleur du bouton */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838; /* Couleur du bouton au survol */
+}
+
+.alarm-container {
+    background-color: #e6f7ff; /* Fond bleu clair pour l'alarme */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.status {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#alarm-list {
+    list-style-type: none;
+    padding: 0;
+}
